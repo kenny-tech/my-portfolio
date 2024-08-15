@@ -2,15 +2,29 @@ import React from 'react';
 import './Skills.css';
 
 const Skills: React.FC = () => {
-  const skills = ["HTML", "CSS", "JavaScript", "React", "React Native", "PHP", "Laravel", "Bootstrap", "Tailwind", "Java", "Spring Boot"];
-
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
-      <div className="skills-card">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill">{skill}</div>
-        ))}
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="skills-text">
+              <h2>Skills</h2>
+              <ul className="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

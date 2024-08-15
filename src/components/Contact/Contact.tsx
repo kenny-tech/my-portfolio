@@ -4,15 +4,22 @@ import './Contact.css';
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="contact-section">
-      <h2>Contact</h2>
-      <div className="contact-info">
-        <div>Phone: +123 456 7890</div>
-        <div>Email: your.email@example.com</div>
-        <div className="social-media">
-          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="contact-text">
+              <h2>Contact</h2>
+              <p>You can reach me through the following:</p>
+              <p><strong>Email:</strong> your.email@example.com</p>
+              <p><strong>Phone:</strong> +123 456 7890</p>
+              <div className="social-media">
+                <a href="#" className="text-link">Facebook</a> | 
+                <a href="#" className="text-link">LinkedIn</a> | 
+                <a href="#" className="text-link">Instagram</a> | 
+                <a href="#" className="text-link">TikTok</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
