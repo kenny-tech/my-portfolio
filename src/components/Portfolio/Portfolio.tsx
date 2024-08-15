@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => {
       <div className="container">
         <h2 className="text-center">My Portfolio</h2>
         <div className="row">
-          {[...Array(5)].map((_, index) => (
+          {[...Array(8)].map((_, index) => (
             <div className="col-md-6 mb-4" key={index}>
               <div className="row align-items-center">
                 <div className="col-md-6">

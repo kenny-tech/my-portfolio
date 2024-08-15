@@ -13,10 +13,10 @@ const Contact: React.FC = () => {
               <p><strong>Email:</strong> your.email@example.com</p>
               <p><strong>Phone:</strong> +123 456 7890</p>
               <div className="social-media">
-                <a href="#" className="text-link">Facebook</a> | 
-                <a href="#" className="text-link">LinkedIn</a> | 
-                <a href="#" className="text-link">Instagram</a> | 
-                <a href="#" className="text-link">TikTok</a>
+                <a href="#" className="social-icon" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                <a href="#" className="social-icon" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+                <a href="#" className="social-icon" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                <a href="#" className="social-icon" aria-label="TikTok"><i className="fab fa-tiktok"></i></a>
               </div>
             </div>
           </div>
