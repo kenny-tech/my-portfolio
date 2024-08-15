@@ -15,6 +15,8 @@ const Skills: React.FC = () => {
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>React Native</li>
+                <li>Redux</li>
+                <li>NextJs</li>
                 <li>PHP</li>
                 <li>Laravel</li>
                 <li>Bootstrap</li>

@@ -10,13 +10,13 @@ const Contact: React.FC = () => {
             <div className="contact-text">
               <h2>Contact</h2>
               <p>You can reach me through the following:</p>
-              <p><strong>Email:</strong> your.email@example.com</p>
-              <p><strong>Phone:</strong> +123 456 7890</p>
+              <p><strong>Email:</strong> kennytech2001@gmail.com</p>
+              <p><strong>Phone:</strong> (+234)8021088554</p>
               <div className="social-media">
-                <a href="#" className="social-icon" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-                <a href="#" className="social-icon" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
-                <a href="#" className="social-icon" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-                <a href="#" className="social-icon" aria-label="TikTok"><i className="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/kehinde.adegbesan01" target="_blank" className="social-icon" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/kenny-tech/" target="_blank" className="social-icon" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+                {/* <a href="#" target="_blank" className="social-icon" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" className="social-icon" aria-label="TikTok"><i className="fab fa-tiktok"></i></a> */}
               </div>
             </div>
           </div>
