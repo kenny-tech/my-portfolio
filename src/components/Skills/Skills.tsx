@@ -19,8 +19,8 @@ const Skills: React.FC = () => {
                 <li>Laravel</li>
                 <li>Bootstrap</li>
                 <li>Tailwind</li>
-                <li>Java</li>
-                <li>Spring Boot</li>
+                <li>NodeJs</li>
+                <li>ExpressJs</li>
               </ul>
             </div>
           </div>
