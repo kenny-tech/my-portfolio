@@ -1,0 +1,110 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.about-section,
+.portfolio-section,
+.skills-section,
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-card img,
+.portfolio-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about-text,
+.portfolio-text {
+  margin-left: 20px;
+}
+
+.skills-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+}
+
+.social-media a {
+  margin-right: 15px;
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.view-more-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.view-more-link:hover {
+  text-decoration: underline;
+}
