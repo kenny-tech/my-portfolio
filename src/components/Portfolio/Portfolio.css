@@ -22,6 +22,10 @@
   color: #0056b3;
 }
 
+.portfolio-section .row {
+  margin-bottom: 30px;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .portfolio-image {
