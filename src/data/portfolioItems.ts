@@ -1,18 +1,29 @@
 export const portfolioItems = [
   {
     id: 1,
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tincidunt quam.",
-    image: "/images/project1.png",
+    title: "Rogerdart Customer App",
+    description: `
+      <p>A mobile app that allows customers to order food from different restaurants, which then gets delivered to them.</p>
+      <ul>
+        <li>- I built the mobile app using React Native.</li>
+        <li>- I added a geolocation feature to the app so food can be delivered to the user location.</li>
+        <li>- I added a payment gateway so users can make payments via the app.</li>
+      </ul>
+    `,
+    image: "/images/rogerdart-customer.jpg",
     url: "#",
   },
   {
     id: 2,
-    title: "Project 2",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tincidunt quam.",
-    image: "/images/project2.png",
+    title: "WiseSub App",
+    description: `
+      <p>A mobile app that allows you to buy airtime and data, and pay electricity and cable TV bills.</p>
+      <ul>
+        <li>- I built the mobile app using React Native.</li>
+        <li>- I added a payment gateway so users can make payments via the app.</li>
+      </ul>
+    `,
+    image: "/images/wisesub.png",
     url: "#",
   },
   {

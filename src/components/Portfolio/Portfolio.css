@@ -26,6 +26,16 @@
   margin-bottom: 30px;
 }
 
+.portfolio-text ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none; /* Removes the bullet points */
+}
+
+.portfolio-text li {
+  margin-bottom: 5px; /* Adds some spacing between list items */
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .portfolio-image {

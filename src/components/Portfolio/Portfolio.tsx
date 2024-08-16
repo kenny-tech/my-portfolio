@@ -1,6 +1,6 @@
-import React from 'react';
-import { portfolioItems } from '../../data/portfolioItems';
-import './Portfolio.css';
+import React from "react";
+import { portfolioItems } from "../../data/portfolioItems";
+import "./Portfolio.css";
 
 const Portfolio: React.FC = () => {
   return (
@@ -8,8 +8,12 @@ const Portfolio: React.FC = () => {
       <div className="container">
         <h2 className="text-center">My Portfolio</h2>
         <div className="row">
-          {portfolioItems.map(item => (
-            <div className="col-md-6 mb-4" key={item.id}>
+          {portfolioItems.map((item) => (
+            <div
+              className="col-md-6 mb-4"
+              key={item.id}
+              style={{ padding: "0 30px" }}
+            >
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <img
@@ -21,9 +25,15 @@ const Portfolio: React.FC = () => {
                 <div className="col-md-6">
                   <div className="portfolio-text">
                     <h3>{item.title}</h3>
-                    <p>{item.description}</p>
-                    <a href={item.url} className="text-link" target="_blank" rel="noopener noreferrer">
-                      Check It Out
+                    <div
+                      dangerouslySetInnerHTML={{ __html: item.description }}
+                    />
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Check it out
                     </a>
                   </div>
                 </div>
@@ -32,7 +42,11 @@ const Portfolio: React.FC = () => {
           ))}
         </div>
         <div className="text-center mt-4">
-          <a href="/portfolio" className="btn btn-primary" rel="noopener noreferrer">
+          <a
+            href="/portfolio"
+            className="btn btn-primary"
+            rel="noopener noreferrer"
+          >
             View more
           </a>
         </div>
