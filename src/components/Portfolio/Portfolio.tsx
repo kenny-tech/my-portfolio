@@ -31,6 +31,11 @@ const Portfolio: React.FC = () => {
             </div>
           ))}
         </div>
+        <div className="text-center mt-4">
+          <a href="/portfolio" className="btn btn-primary" rel="noopener noreferrer">
+            View more
+          </a>
+        </div>
       </div>
     </section>
   );
