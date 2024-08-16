@@ -1,0 +1,15 @@
+export const skills = [
+  { id: 1, name: "HTML" },
+  { id: 2, name: "CSS" },
+  { id: 3, name: "JavaScript" },
+  { id: 4, name: "React" },
+  { id: 5, name: "React Native" },
+  { id: 6, name: "Redux" },
+  { id: 7, name: "NextJs" },
+  { id: 8, name: "PHP" },
+  { id: 9, name: "Laravel" },
+  { id: 10, name: "Bootstrap" },
+  { id: 11, name: "Tailwind" },
+  { id: 12, name: "NodeJs" },
+  { id: 13, name: "ExpressJs" },
+];

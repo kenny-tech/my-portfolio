@@ -1,5 +1,6 @@
 import React from 'react';
 import './Skills.css';
+import { skills } from '../../data/skills';
 
 const Skills: React.FC = () => {
   return (
@@ -10,19 +11,9 @@ const Skills: React.FC = () => {
             <div className="skills-text">
               <h2>Skills</h2>
               <ul className="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>React Native</li>
-                <li>Redux</li>
-                <li>NextJs</li>
-                <li>PHP</li>
-                <li>Laravel</li>
-                <li>Bootstrap</li>
-                <li>Tailwind</li>
-                <li>NodeJs</li>
-                <li>ExpressJs</li>
+                {skills.map(skill => (
+                  <li key={skill.id}>{skill.name}</li>
+                ))}
               </ul>
             </div>
           </div>
