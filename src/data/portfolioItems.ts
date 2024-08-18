@@ -21,6 +21,7 @@ export const portfolioItems = [
       <ul>
         <li>- I built the mobile app using React Native.</li>
         <li>- I added a payment gateway so users can make payments via the app.</li>
+        <li>- I built the backend of the app.</li>
       </ul>
     `,
     image: "/images/wisesub.png",
