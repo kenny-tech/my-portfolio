@@ -20,7 +20,7 @@ export const portfolioItems = [
       <p>A mobile app that allows you to buy airtime and data, and pay electricity and cable TV bills.</p>
       <ul>
         <li>- I built the mobile app using React Native.</li>
-        <li>- I added a payment gateway so users can make payments via the app.</li>
+        <li>- I added a payment gateway so users can make payments and add money to their wallets.</li>
         <li>- I developed the backend of the app.</li>
       </ul>
     `,
@@ -72,8 +72,7 @@ export const portfolioItems = [
       <p>A web app that allows customers to order food from different restaurants, which then gets delivered to them.</p>
       <ul>
         <li>- I built the web app.</li>
-        <li>- I added a geolocation feature to the app so food can be delivered to the user location.</li>
-        <li>- I added a payment gateway so users can make payments via the app.</li>
+        <li>- I added a payment gateway so users can make payments and add money to their wallets.</li>
         <li>- I developed the backend of the app.</li>
       </ul>
     `,
