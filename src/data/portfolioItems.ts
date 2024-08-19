@@ -1,6 +1,30 @@
 export const portfolioItems = [
   {
     id: 1,
+    title: "SignalADoc",
+    description: `
+      <p>A telemedicine app that connects doctors with patients.</p>
+      <ul>
+        <li>- I am part of a team that built the backend for the application.</li>
+      </ul>
+    `,
+    image: "/images/signaladoc.jpg",
+    url: "https://signaladoc.com/",
+  },
+  {
+    id: 2,
+    title: "GetriPay",
+    description: `
+      <p>A fintech app that allows you to transfer money, buy airtime and data, and pay bills.</p>
+      <ul>
+        <li>- I am part of a team that built the backend for the application.</li>
+      </ul>
+    `,
+    image: "/images/getripay.jpg",
+    url: "https://getripay.com/",
+  },
+  {
+    id: 3,
     title: "Rogerdart App",
     description: `
       <p>A mobile app that allows customers to order food from different restaurants, which then gets delivered to them.</p>
@@ -14,7 +38,7 @@ export const portfolioItems = [
     url: "#",
   },
   {
-    id: 2,
+    id: 4,
     title: "WiseSub App",
     description: `
       <p>A mobile app that allows you to buy airtime and data, and pay electricity and cable TV bills.</p>
@@ -26,30 +50,6 @@ export const portfolioItems = [
     `,
     image: "/images/wisesub.jpg",
     url: "#",
-  },
-  {
-    id: 3,
-    title: "SignalADoc",
-    description: `
-      <p>A telemedicine app that connects doctors with patients.</p>
-      <ul>
-        <li>- I am part of a team that built the backend for the application.</li>
-      </ul>
-    `,
-    image: "/images/signaladoc.jpg",
-    url: "https://signaladoc.com/",
-  },
-  {
-    id: 4,
-    title: "GetriPay",
-    description: `
-      <p>A fintech app that allows you to transfer money, buy airtime and data, and pay bills.</p>
-      <ul>
-        <li>- I am part of a team that built the backend for the application.</li>
-      </ul>
-    `,
-    image: "/images/getripay.jpg",
-    url: "https://getripay.com/",
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ export const portfolioItems = [
     url: "https://play.google.com/store/apps/datasafety?id=com.dextrac",
   },
   {
-    id: 7,
+    id: 8,
     title: "VidSocial App",
     description: `
       <p>A social video app that allows you to watch and share videos.</p>
