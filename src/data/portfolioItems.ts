@@ -10,7 +10,7 @@ export const portfolioItems = [
         <li>- I added a payment gateway so users can make payments via the app.</li>
       </ul>
     `,
-    image: "/images/rogerdart_customer.jpg",
+    image: "/images/rogerdart_app.jpg",
     url: "#",
   },
   {
