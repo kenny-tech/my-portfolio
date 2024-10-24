@@ -69,7 +69,7 @@ export const portfolioItems = [
     id: 6,
     title: "WiseSub Web App",
     description: `
-      <p>A web app that allows customers to order food from different restaurants, which then gets delivered to them.</p>
+      <p>A web app that allows you to buy airtime and data, and pay electricity and cable TV bills.</p>
       <ul>
         <li>- I built the web app.</li>
         <li>- I added a payment gateway so users can make payments and add money to their wallets.</li>
